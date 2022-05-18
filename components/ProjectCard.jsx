@@ -1,10 +1,9 @@
-import { GrGithub } from 'react-icons/gr'
 import { HiOutlineExternalLink } from 'react-icons/hi'
 
-function ProjectCard({ image, title, website, code, idx }) {
+function ProjectCard({ image, title, website, idx }) {
   return (
     <div
-      className={`w-96 rounded-md border border-amber-400 bg-slate-100 hover:bg-slate-200 ${
+      className={`w-96 rounded-md border border-amber-400 bg-slate-100 text-black hover:bg-slate-200 ${
         idx === 0 ? 'mt-8' : null
       }`}
     >
@@ -24,13 +23,6 @@ function ProjectCard({ image, title, website, code, idx }) {
             <div className="mb-4 flex items-center space-x-2">
               <HiOutlineExternalLink className="h-6 w-6" color="black" />
               <div>Website</div>
-            </div>
-          </a>
-
-          <a target="_blank" href={code} rel="noreferrer">
-            <div className="flex items-center space-x-2">
-              <GrGithub className="h-6 w-6" color="black" />
-              <div>Code</div>
             </div>
           </a>
         </div>

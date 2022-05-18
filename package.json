@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "https://lennykioko.github.io/",
+  "homepage": "https://duncanian.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -9,9 +9,9 @@ import Volunteer from '../components/Volunteer'
 
 const Home = () => {
   return (
-    <div className="min-w-screen min-h-screen flex-col items-center justify-center bg-slate-50 text-black">
+    <div className="min-w-screen min-h-screen flex-col items-center justify-center bg-slate-900 text-white">
       <Head>
-        <title>Lenny Kioko</title>
+        <title>Ian Duncan</title>
         <link rel="icon" href="/favicon.ico" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -21,7 +21,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="Software, Engineer, Programmer, Coder, Remote, Mentor, Consultant, Developer, Web, Web3, Blockchain, Frontend, Nairobi, Kenya"
+          content="Software, Engineer, Programmer, Coder, Remote, Mentor, Consultant, Developer, Web, Web3, Blockchain, Frontend, Nairobi, Kenya, Microsoft"
         />
         <meta
           name="description"

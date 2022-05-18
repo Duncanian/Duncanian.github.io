@@ -1,43 +1,25 @@
 const arrayOne = [
-  'NextJS',
-  'ReactJS',
   'JavaScript',
   'TypeScript',
-  'TailwindCSS',
-  'HTML',
-  'CSS',
-  'ChakraUI',
-  'Styled Components',
-  'Figma',
+  'ReactJS',
+  'NextJS',
+  'Hardhat',
+  'Web3.js',
+  'Solidity',
 ]
 
 const arrayTwo = [
-  'Solidity',
   'NodeJS',
   'ExpressJS',
-  'REST APIs',
   'GraphQL',
-  'SQL',
-  'PostgrSQL',
+  'PostgreSQL',
   'MongoDB',
   'Firebase',
-  'Python',
-  'Django & DRF',
-  'Flask',
-]
-
-const arrayThree = [
-  'Hardhat',
-  'Git & Github',
-  'Docker',
-  'VsCode',
-  'Selenium',
-  'MQL4',
 ]
 
 function Skills() {
   return (
-    <section className="w-full flex-col items-center justify-center border-b-2 border-amber-400 bg-slate-100">
+    <section className="w-full flex-col items-center justify-center border-b border-amber-400 bg-slate-900">
       <div className="p-4 text-center text-xl font-bold">Skills</div>
       <div className="wrap flex items-start justify-around p-4">
         <div className="p-4">
@@ -45,9 +27,6 @@ function Skills() {
         </div>
         <div className="p-4">
           {arrayTwo && arrayTwo.map((item, idx) => <p key={idx}>{item}</p>)}
-        </div>
-        <div className="p-4">
-          {arrayThree && arrayThree.map((item, idx) => <p key={idx}>{item}</p>)}
         </div>
       </div>
     </section>
