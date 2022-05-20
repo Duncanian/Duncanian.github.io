@@ -26,11 +26,11 @@ const projects = [
   //   title: 'Instagram Clone',
   //   website: 'https://instagram-clone-pi-ten.vercel.app/',
   // },
-  // {
-  //   image: '/medium.png',
-  //   title: 'Medium Clone',
-  //   website: 'https://medium-clone-sigma-indol.vercel.app/',
-  // },
+  {
+    image: '/medium.png',
+    title: 'Medium Clone',
+    website: 'https://medium-clone-sigma-indol.vercel.app/',
+  },
   // {
   //   image: '/hulu.png',
   //   title: 'Hulu Clone',
@@ -41,11 +41,11 @@ const projects = [
   //   title: 'Zoom Clone',
   //   website: 'https://zoom-meeting-clone.herokuapp.com/',
   // },
-  // {
-  //   image: '/disney.png',
-  //   title: 'Disney+ Clone',
-  //   website: 'https://disney-clone-3f461.web.app/',
-  // },
+  {
+    image: '/disney.png',
+    title: 'Disney+ Clone',
+    website: 'https://disney-clone-3f461.web.app/',
+  },
 ]
 
 function Projects() {
